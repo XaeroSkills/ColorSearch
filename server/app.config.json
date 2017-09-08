@@ -3,7 +3,7 @@
     "login-required": true,
     "user": "admin",
     "password": "hello",
-    "hosting": false,
+    "hosting": true,
     "imgs-path": "imgs/public", 
     "text-translator":{
         "enabled": true,
