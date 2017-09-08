@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const googleTranslate=require("google-translate-api");class GoogleService{translate(e){return googleTranslate(e,{to:"en"}).then(e=>{if(e&&void 0!==e.text)return e.text;throw new Error("Service error.")})}}exports.default=GoogleService;
