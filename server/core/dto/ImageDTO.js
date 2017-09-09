@@ -1,1 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class ImageDTO{constructor(){this.text="",this.tags=new Array}getFullText(){return this.tags.length>0?this.tags.join(" ")+" "+this.text:this.text}getPath(){return this.serverPath?this.serverPath:this.url}}exports.default=ImageDTO;
