@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const EventEmitter=require("events");class EventHub extends EventEmitter{constructor(){super()}}exports.default=new EventHub;

@@ -1,0 +1,47 @@
+{
+    "loginRequired": true,
+    "user": "admin",
+    "password": "hello",
+    "host": "OpenShift",
+    "imgsPath": "server/resources/public_imgs", 
+    "textTranslator":{
+        "enabled": true,
+        "services": ["GoogleService"]
+    },
+    "imageTagger":{
+        "enabled": false,
+        "similarityThreshold": 20,
+        "services": ["ClarifaiService", "ImaggaService"]
+    },
+    "imageLoader":{
+        "enabled": false,
+        "sleepTime": 10000,
+        "timeGap": 5000,
+        "sleepIfTaggingFailed": true,
+        "sleepIfTranslationFailed": true,
+        "directorySource":{
+            "enabled": true,
+            "step": 10,
+            "path": "server/resources/imgs"
+        },
+        "flickrSource":{
+            "enabled": false,
+            "step" : 3,
+            "wordLists": ["en-US.txt", "de-DE.txt"],
+            "randomization": 0.5
+        }
+    },
+    "imageFinder":{
+        "similarityThreshold": 85,
+        "defaultDistance": "Euclidean"
+    },
+    "index":{
+        "enabled": true,
+        "dimensions": 307,
+        "delta": 0.1,
+        "L": "auto",
+        "k": 4,
+        "w": 0.4,
+        "family": "EuclideanHashFamily"
+    }
+}

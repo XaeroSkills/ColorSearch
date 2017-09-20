@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class ImageDTO{getPath(){return this.serverPath?this.serverPath:this.url}}exports.default=ImageDTO;
