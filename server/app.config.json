@@ -14,19 +14,19 @@
         "services": ["ClarifaiService", "ImaggaService"]
     },
     "imageLoader":{
-        "enabled": false,
+        "enabled": true,
         "sleepTime": 10000,
         "timeGap": 5000,
         "sleepIfTaggingFailed": true,
         "sleepIfTranslationFailed": true,
         "directorySource":{
-            "enabled": true,
+            "enabled": false,
             "step": 10,
             "path": "server/resources/imgs"
         },
         "flickrSource":{
-            "enabled": false,
-            "step" : 3,
+            "enabled": true,
+            "step" : 20,
             "wordLists": ["en-US.txt", "de-DE.txt"],
             "randomization": 0.5
         }
