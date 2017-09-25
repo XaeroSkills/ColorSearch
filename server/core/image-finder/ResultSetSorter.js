@@ -1,1 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class ResultSetSorter{sort(e){e.sort((e,r)=>e.score<r.score?-1:e.score>r.score?1:0)}}exports.default=ResultSetSorter;
