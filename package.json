@@ -28,7 +28,6 @@
       "clarifai": "^2.7.1",
       "clean-text-utils": "^1.1.14",
       "colr": "^1.2.2",
-      "couchbase": "^2.4.6",
       "express": "^4.15.3",
       "google-translate-api": "^2.3.0",
       "hex-to-binary": "^1.0.1",
