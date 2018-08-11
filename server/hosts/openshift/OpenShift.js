@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const MongoDB_1 = require("./databases/MongoDB");
 class OpenShift {
     constructor(database) {
-        this.serverUrl = "http://www.app-colorsearch.193b.starter-ca-central-1.openshiftapps.com/";
+        this.serverUrl = "http://app-colorsearch.193b.starter-ca-central-1.openshiftapps.com/";
         this.port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080;
         this.ip = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || "0.0.0.0";
         switch (database.toLowerCase()) {

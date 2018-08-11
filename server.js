@@ -27,6 +27,6 @@ const app = express();
     app.use(bodyParser.json({ limit: "50mb" }));
     const router = new Router_1.default(app, index);
     app.listen(config.port, config.ip);
-    console.log("server started...");
+    console.log("server started on " + config.ip + ":" + config.port);
 }))();
 module.exports = app;
