@@ -55,6 +55,7 @@ class ImageSaver {
     save(descJSONs) {
         return __awaiter(this, void 0, void 0, function* () {
             debug("saving descriptors...");
+            console.log("saving descriptors: " + descJSONs.length);
             if (descJSONs.length > 0) {
                 this.index.indexMany(descJSONs.map((desc) => new Descriptors_1.ImageDescriptor(desc)));
             }
