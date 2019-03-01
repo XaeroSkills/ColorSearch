@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const HashFamily_1=require("../HashFamily"),Chi2Hash_1=require("./Chi2Hash");class Chi2HashFamily extends HashFamily_1.default{constructor(s,e){super(),this.dimensions=Math.round(s),this.w=e}createHashFunction(){return new Chi2Hash_1.default(this.dimensions,this.w)}}exports.default=Chi2HashFamily;
