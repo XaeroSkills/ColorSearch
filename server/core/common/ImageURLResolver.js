@@ -1,1 +1,0 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const Settings_1=require("../Settings"),serverURL=Settings_1.default.global().serverUrl;class ImageURLResolver{static resolveURL(e,r){switch(e.source){case"local":r=serverURL+"/"+e.url}return r}}exports.default=ImageURLResolver;
