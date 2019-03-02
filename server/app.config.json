@@ -22,7 +22,7 @@
             {
                 "name": "flickr",
                 "enabled": true,
-                "step" : 30,
+                "step" : 40,
                 "wordLists": ["en-US.txt", "de-DE.txt"],
                 "randomization": 0.5
             }
