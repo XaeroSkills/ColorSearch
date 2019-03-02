@@ -9,7 +9,7 @@
     "nodes": [],
     "imageSaver":{
         "enabled": true,
-        "sleepTime": 600000,
+        "sleepTime": 900000,
         "timeGap": 1000,
         "sources": [
             {
@@ -22,7 +22,7 @@
             {
                 "name": "flickr",
                 "enabled": true,
-                "step" : 40,
+                "step" : 50,
                 "wordLists": ["en-US.txt", "de-DE.txt"],
                 "randomization": 0.5
             }
