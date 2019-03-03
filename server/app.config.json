@@ -3,7 +3,7 @@
     "password": "hello",
     "host": "openshift",
     "database": "MongoDB",
-    "saveLimit": 100000,
+    "saveLimit": 120000,
     "imgsPath": "server/resources/public_imgs",
     "id": 1,
     "nodes": [],
@@ -35,7 +35,7 @@
     },
     "index":{
         "lshEnabled": false,
-        "max": 100000,
+        "max": 120000,
         "dimensions": 199,
         "delta": 0.1,
         "k": 5,
