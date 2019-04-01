@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});class CosineSimilarity{calculate(e,i,t=!1){let s=0;if(e&&i&&e.getDimensions()===i.getDimensions()){for(let t=0,n=e.getDimensions();t<n;t++)s+=e.get(t)*i.get(t);return t?s:s/(e.length()*i.length())}return 0}}exports.CosineSimilarity=CosineSimilarity;
